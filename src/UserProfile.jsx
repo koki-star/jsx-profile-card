@@ -6,11 +6,7 @@ function UserProfile({ name, email }) {
       <h2>User Profile</h2>
 
       {/* profile image */}
-      <img
-        src="https://example.com/user-photo.jpg"
-        alt="User Photo"
-        className="photo"
-      />
+      <div className="profile-image">👤</div>
 
       {/* displaying the name */}
       <p>Name: {name}</p>
